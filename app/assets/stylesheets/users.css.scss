@@ -32,9 +32,15 @@
   border-color: black;
 }
 
-img {
+.user-show-avatar {
     border-radius: 50%;
-    -webkit-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 8px 6px 5px 0px rgba(50, 50, 50, 0.75);
+    height: 128px;
+    width: 128px;
+}
+
+.user-index-avatar {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
